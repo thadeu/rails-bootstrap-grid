@@ -1,0 +1,1 @@
+require 'bootstrap/railtie' if defined?(Rails)

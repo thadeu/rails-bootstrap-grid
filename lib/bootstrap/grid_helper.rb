@@ -1,7 +1,7 @@
 require "bootstrap/grid/version"
 
 module Bootstrap
-  module Grid
+  module GridHelper
     @grid_columns = (1..12)
 
     class << self
@@ -43,4 +43,4 @@ module Bootstrap
   end
 end
 
-Boostrap::Grid.load!
+Boostrap::GridHelper.load!
