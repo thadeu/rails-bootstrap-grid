@@ -1,7 +1,7 @@
 module RailsBootstrapGrid
-	class Engine < ::Rails::Engine
-		initializer "rails.bootstrap.grid_helpers" do
-			ActionView::Base.send :include, Rails::Bootstrap::GridHelpers
-		end
+	module Helpers
+		autoload :GridHelper, "rails-bootstrap-grid/helpers/grid_helper"
 	end
 end
+
+require "rails-bootstrap-grid/rails/engine"

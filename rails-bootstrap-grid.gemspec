@@ -1,11 +1,13 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
+
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rails/bootstrap/grid/version'
+
+require "rails-bootstrap-grid/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "rails-bootstrap-grid"
-  spec.version       = Rails::Bootstrap::Grid::VERSION
+  spec.version       = RailsBootstrapGrid::VERSION
   spec.authors       = ["Thadeu Esteves Jr"]
   spec.email         = ["tadeuu@gmail.com"]
 
