@@ -13,7 +13,7 @@ Use in Ruby >= 1.9 and Ruby on Rails >= v4.X and Boostrap load!
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'bootstrap-grid'
+gem 'rails-bootstrap-grid'
 ```
 
 And then execute:
