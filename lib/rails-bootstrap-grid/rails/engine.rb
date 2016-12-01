@@ -1,5 +1,3 @@
-require '../helpers/grid_helper'
-
 module RailsBootstrapGrid
 	module Rails
 		class Engine < ::Rails::Engine
