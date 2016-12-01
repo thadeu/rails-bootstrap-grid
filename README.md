@@ -62,7 +62,7 @@ use an container with block
 use an row with block
 
 ```ruby
-<%= container do %>
+<%= row do %>
  more code
 <% end %>
 ```
