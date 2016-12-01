@@ -40,7 +40,7 @@ Cols Methods availables
 ## Form Example using the Gem SimpleForm
 ```ruby
 <%= simple_form_for(@model, url: route_path) do |f| %>
-    <%= row container do %>
+    <%= container do %>
         <%= f.error_notification %>
         <%= col_md_3 f.input :name, label: 'Name Canonical'  %>
         <%= col_md_3 f.input :username, html: { placeholder: 'Username' } %>
