@@ -1,6 +1,7 @@
 # Rails Bootstrap Grid
 
 A Rails Plugin for developers that use Bootstrap.
+by Thadeu Esteves Jr.
 
 [![Gem Version](https://badge.fury.io/rb/rails-bootstrap-grid.svg)](https://badge.fury.io/rb/rails-bootstrap-grid)
 
